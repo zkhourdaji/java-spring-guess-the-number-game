@@ -6,4 +6,8 @@
 
     <bean id="numberGenerator" class="zafer.khourdaji.NumberGeneratorImpl"/>
 
+    <bean id="game" class="zafer.khourdaji.GameImpl">
+        <constructor-arg ref="numberGenerator"/>
+    </bean>
+
 </beans>

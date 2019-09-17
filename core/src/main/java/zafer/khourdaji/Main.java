@@ -20,6 +20,9 @@ public class Main {
 
         log.info("number = {}", numberGenerator.next());
 
+        Game game = context.getBean(Game.class);
+        game.reset();
+
         context.close();
     }
 }
