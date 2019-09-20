@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315b051a-c4bb-43c4-bc24-99c94a370a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
