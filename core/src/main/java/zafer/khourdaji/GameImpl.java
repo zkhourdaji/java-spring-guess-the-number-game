@@ -3,6 +3,9 @@ package zafer.khourdaji;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 public class GameImpl implements Game {
 
     private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
@@ -24,6 +27,7 @@ public class GameImpl implements Game {
         this.numberGenerator = numberGenerator;
     }
 
+    @PostConstruct
     @Override
     public void reset() {
         smallest = 0;
@@ -32,6 +36,11 @@ public class GameImpl implements Game {
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();
         log.debug("The number is {}", number);
+    }
+
+    @PreDestroy
+    public void preDestroy(){
+        log.debug("GameImpl Pre Destroy");
     }
 
     @Override
