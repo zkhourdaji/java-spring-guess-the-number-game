@@ -7,14 +7,16 @@
             http://www.springframework.org/schema/context
             http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config/>
+<!--    <context:annotation-config/>-->
 
-    <bean id="numberGenerator" class="zafer.khourdaji.NumberGeneratorImpl"/>
+    <context:component-scan base-package="zafer.khourdaji"/>
 
-    <bean id="game" class="zafer.khourdaji.GameImpl">
+<!--    <bean id="numberGenerator" class="zafer.khourdaji.NumberGeneratorImpl"/>-->
+
+<!--    <bean id="game" class="zafer.khourdaji.GameImpl">-->
         <!--        <constructor-arg ref="numberGenerator"/>-->
         <!--        <property name="numberGenerator" ref="numberGenerator"/>-->
-    </bean>
+<!--    </bean>-->
 
     <!--    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>-->
 
