@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315b051a-c4bb-43c4-bc24-99c94a370a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MessageGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +40,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\khour\IdeaProjects\guess-the-number-game\core\src\main\resources" />
     </key>
@@ -95,11 +97,11 @@
       <method v="2" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zafer.khourdaji.Main" />
-      <module name="core" />
+      <option name="MAIN_CLASS_NAME" value="zafer.khourdaji.console.Main" />
+      <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zafer.khourdaji.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
