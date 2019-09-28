@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import zafer.khourdaji.GuessCount;
 import zafer.khourdaji.MaxNumber;
+import zafer.khourdaji.MinNumber;
 
 @Configuration
 @PropertySource("classpath:config/game.properties")
@@ -16,6 +17,8 @@ public class GameConfig {
     private int maxNumber;
     @Value("${game.guessCount:5}")
     private int guessCount;
+    @Value("${game.minNumber:0}")
+    private int minNumber;
 
     @Bean
     @MaxNumber
@@ -27,5 +30,11 @@ public class GameConfig {
     @GuessCount
     public int guessCount() {
         return this.guessCount;
+    }
+
+    @Bean
+    @MinNumber
+    public int minNumber(){
+        return this.minNumber;
     }
 }
