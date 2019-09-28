@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315b051a-c4bb-43c4-bc24-99c94a370a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GuessCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/GameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGeneratorImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -46,6 +56,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zafer.khourdaji" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\khour\IdeaProjects\guess-the-number-game\core\src\main\resources" />

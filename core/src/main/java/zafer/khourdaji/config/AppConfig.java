@@ -1,10 +1,13 @@
-package zafer.khourdaji;
+package zafer.khourdaji.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+import zafer.khourdaji.*;
 
 @Configuration
+@Import(GameConfig.class)
 @ComponentScan(basePackages = "zafer.khourdaji")
 public class AppConfig {
 
