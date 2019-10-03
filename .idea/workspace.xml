@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315b051a-c4bb-43c4-bc24-99c94a370a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MinNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/ConsoleNumberGuess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GuessCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/GuessCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MaxNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/AppConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/zafer/khourdaji/config/GameConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -152,5 +148,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/console/src/main/java/zafer/khourdaji/console/ConsoleNumberGuess.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

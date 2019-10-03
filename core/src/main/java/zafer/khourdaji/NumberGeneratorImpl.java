@@ -1,13 +1,16 @@
 package zafer.khourdaji;
 
+import lombok.AccessLevel;
+import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import java.util.Random;
 
+@Getter
 @Component
 public class NumberGeneratorImpl implements NumberGenerator {
 
+    @Getter(AccessLevel.NONE)
     private final Random random = new Random();
 
     private final int maxNumber;
@@ -22,15 +25,5 @@ public class NumberGeneratorImpl implements NumberGenerator {
     @Override
     public int next() {
         return this.random.nextInt(this.maxNumber - this.minNumber) + this.minNumber;
-    }
-
-    @Override
-    public int getMaxNumber() {
-        return this.maxNumber;
-    }
-
-    @Override
-    public int getMinNumber() {
-        return this.minNumber;
     }
 }
